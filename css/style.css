@@ -34,7 +34,7 @@ body {
 
 /* Estilo do cabeçalho fixo no topo */
 .header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Gradiente roxo moderno */
+    background: linear-gradient(135deg, #0d2bb1 0%, #764ba2 100%); /* Gradiente roxo moderno */
     color: white; /* Texto branco */
     padding: 20px 8%; /* Espaçamento interno */
     position: fixed; /* Fixo no topo da página */
@@ -51,15 +51,15 @@ body {
 /* Estilo do logo */
 .logo {
     font-size: 1.8rem; /* Tamanho da fonte */
-    font-weight: 700; /* Peso da fonte (negrito) */
-    color: white; /* Cor branca */
+    font-weight: 800; /* Peso da fonte (negrito) */
+    color: rgb(0, 0, 0); /* Cor branca */
     letter-spacing: 1px; /* Espaçamento entre letras */
 }
 
 /* Destaque do texto "Das Letras" no logo */
 .logo span {
-    color: #ffd700; /* Cor dourada para destaque */
-    font-weight: 800; /* Extra negrito */
+    color: #fffffd; /* Cor dourada para destaque */
+    font-weight: 700; /* Extra negrito */
 }
 
 /* Container da navegação */
@@ -112,7 +112,7 @@ body {
 
 /* Seção principal com imagem de fundo */
 .hero {
-    background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%),
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(44, 59, 194, 0.9) 100%),
                 url('../imagens/hero-bg.jpg') center/cover; /* Gradiente sobre imagem */
     min-height: 70vh; /* Altura mínima de 70% da viewport */
     display: flex; /* Usa flexbox */
