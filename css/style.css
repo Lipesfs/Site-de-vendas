@@ -815,7 +815,7 @@ footer p,
 
     /* Logo menor em mobile */
     .logo {
-        font-size: 1.4rem; /* Tamanho reduzido */
+        font-size: 1.6rem; /* Tamanho reduzido */
     }
 
     /* Links de navegação menores */
@@ -878,7 +878,7 @@ footer p,
 
     /* Container ajustado para mobile */
     .container {
-        padding: 0 15px; /* Padding lateral */
+        padding: 0 10px; /* Padding lateral */
     }
 
     /* Botões com padding menor em mobile */
